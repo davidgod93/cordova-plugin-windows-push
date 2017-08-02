@@ -27,5 +27,8 @@
     <config-file target="config.xml" parent="/*">
       <preference name="WindowsToastCapable" value="true"/>
     </config-file>
+    <config-file parent="/Package/Capabilities" target="package.windows10.appxmanifest">
+        <Capability Name="privateNetworkClientServer" />
+    </config-file>
   </platform>
 </plugin>
